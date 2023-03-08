@@ -487,5 +487,6 @@ table tr,table td{
 }
 .modal{
     overflow-y: scroll;
-    max-height: 60%;
+    max-height: 90%;
+    top: 5%;
   }

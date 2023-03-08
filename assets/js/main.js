@@ -98,7 +98,7 @@ window.onload = async function(){
     if(url!=`${prefiksOnline}index.html` && url!=`${prefiksOnline}`) {
         prefiksPage = prefiksOnline+prefiksPage;
         prefiksSlike = prefiksOnline+prefiksSlike;
-        prefiksJSON = prefiksOnline +prefiksJSON;
+        // prefiksJSON = prefiksOnline +prefiksJSON;
 
     }
         //Dohvata sve potrebne JSON fajlove
