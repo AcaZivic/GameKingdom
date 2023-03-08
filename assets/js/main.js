@@ -567,7 +567,7 @@ function prikazProizvoda(proizvodi,obj){
     for(var it of proizvodi){
         ispis+=`<div class="col-lg-3 col-sm-6 col-12 mb-5 az-opac-0">
                     <div class="card rounded-3 text-center">
-                        <a class="az-btn-modal" data-id="${it.id}"><img class="card-img-top" src="${prefiksPomocno+it.slika.src}" alt="${it.slika.alt}" /></a>
+                        <a class="az-btn-modal" data-id="${it.id}"><img class="card-img-top" src="${prefiksOnline+it.slika.src}" alt="${it.slika.alt}" /></a>
                         <div class="card-body">
                             <div class="az-head-h">
                                 <a class="az-btn-modal" data-id="${it.id}"><h5 class="card-title fw-bold">${it.naziv}</h5></a>
