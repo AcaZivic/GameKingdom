@@ -953,10 +953,10 @@ function prikazModalaArtikal(){
         let it = nizProizvoda.filter(x=>x.id==id)[0];
         obj.querySelector(".modal-header p").innerHTML = nizProizvodjaca.filter(x=>x.id==it.proizvodjac)[0].naziv;
         obj.querySelector(".modal-title").innerHTML = it.naziv;
-        obj.querySelector(".modal-body img:nth-child(1)").src = prefiksPomocno+it.slika.src;
-        obj.querySelector(".modal-body img:nth-child(1)").alt = prefiksPomocno+it.slika.alt;
-        obj.querySelector(".modal-body img:nth-child(2)").src = prefiksPomocno+nizPegiOznaka.filter(x=>x.id==it.pegiOznaka)[0].slika.src;
-        obj.querySelector(".modal-body img:nth-child(2)").alt = prefiksPomocno+nizPegiOznaka.filter(x=>x.id==it.pegiOznaka)[0].slika.alt;
+        obj.querySelector(".modal-body img:nth-child(1)").src = prefiksOnline+it.slika.src;
+        obj.querySelector(".modal-body img:nth-child(1)").alt = it.slika.alt;
+        obj.querySelector(".modal-body img:nth-child(2)").src = prefiksOnline+nizPegiOznaka.filter(x=>x.id==it.pegiOznaka)[0].slika.src;
+        obj.querySelector(".modal-body img:nth-child(2)").alt = nizPegiOznaka.filter(x=>x.id==it.pegiOznaka)[0].slika.alt;
         obj.querySelector(".modal-body p.card-text").innerHTML=`${it.cenaInfo.cenaNova!=null?`<span class="az-old-cena text-warning fw-bold me-2">${it.cenaInfo.cenaStara} RSD</span><span class="az-new-cena fs-4">${it.cenaInfo.cenaNova} RSD</span> `:`<span class="az-new-cena fs-4">${it.cenaInfo.cenaStara} RSD</span>`}`;
         if(it.cenaInfo.cenaNova!=null){
             let promocija =nizPromocije.filter(x=>x.id==it.cenaInfo.promocija)[0];
@@ -1127,7 +1127,7 @@ function prikaziProizvodKorpa(el,indeks){
     let proizvod = dohvatiLS("korpa").filter(x=>x.id==el.id)[0];
     ispis =`<tr>
         <td class="align-middle">${indeks}</td>
-        <td class='align-middle az-w-15'><img class="img-fluid" alt="${proizvod.slika.alt}" src="${prefiksPomocno+proizvod.slika.src}" /></td>
+        <td class='align-middle az-w-15'><img class="img-fluid" alt="${proizvod.slika.alt}" src="${prefiksOnline+proizvod.slika.src}" /></td>
         <td class='align-middle fw-bold fs-4 '>${proizvod.naziv}</td>
         <td class='align-middle fw-bold '>${proizvod.sifra}</td>
         <td class='align-middle fs-6'>${!cenaStaraProizvoda(proizvod)?`<s class="text-danger">${proizvod.cenaInfo.cenaStara} RSD</s></br>`:``}${cenaProizvoda(proizvod)} RSD</td>
