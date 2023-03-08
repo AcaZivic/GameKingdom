@@ -155,7 +155,7 @@ window.onload = async function(){
         
  
     }
-    if(url==`${prefiksOnline}/pages/proizvodi.html`){
+    if(url==`${prefiksOnline}pages/proizvodi.html`){
         
                         prikazCheckBoxova(nizProizvoda);
                         $("#cistac").click(ocistiFiltere);
@@ -171,7 +171,7 @@ window.onload = async function(){
     }
 
     
-    if(url==`${prefiksOnline}/pages/korpa.html`){
+    if(url==`${prefiksOnline}pages/korpa.html`){
         prikaziBrojProizvodaUKorpi();
         // console.log(brArtikalaKorpa())
         if(!brArtikalaKorpa()){
@@ -223,11 +223,6 @@ function proveraFormeUzivo(inputFormObjects){
                 divCbx.innerHTML = ``;
                 divCbx.classList.remove("az-invisible");
             }
-             
-            // divCbx.forEach((elem) =>{
-            //     let p = elem.querySelectorAll("input[type='checkbox']");
-            //     p.forEach(elem => nizCboxa.push(elem));
-            //  });
          }else{
              formaSelect.previousElementSibling.classList.add("text-danger");
              formaSelect.previousElementSibling.classList.remove("text-success");
