@@ -91,15 +91,16 @@ function dohvatiPodatkePromise(nazivFajla){
 
 
 let url = window.location.pathname;
-url = url=="/"?"/index.html":url;
-// url = (url=='/BakinoCudoDoo/')?'/BakinoCudoDoo/index.html':url;
+// url = url=="/"?"/index.html":url;
+url = (url=='/BakinoCudoDoo/')?'/BakinoCudoDoo/index.html':url;
 // console.log(url);
 window.onload = async function(){
-    if(url!='/index.html' && url!="/") {
+    if(url!=`${prefiksOnline}index.html` && url!=`${prefiksOnline}`) {
         prefiksPomocno="../";
-        prefiksPage = prefiksPomocno+prefiksPage;
-        prefiksSlike = prefiksPomocno+prefiksSlike;
-        prefiksJSON = prefiksPomocno +prefiksJSON;
+        prefiksOnline = prefiksOnline+prefiksPomocno
+        prefiksPage = prefiksOnline+prefiksPage;
+        prefiksSlike = prefiksOnline+prefiksSlike;
+        prefiksJSON = prefiksOnline +prefiksJSON;
 
     }
         //Dohvata sve potrebne JSON fajlove
@@ -113,7 +114,7 @@ window.onload = async function(){
         prikaziBrojProizvodaUKorpi();
 
     
-    if(url=='/index.html' || url=="/"){
+    if(url==`${prefiksOnline}index.html` || url==`${prefiksOnline}`){
             
                     nizSlider = await dohvatiPodatkePromise("slider.json");
 
@@ -180,6 +181,10 @@ window.onload = async function(){
         }else{
             prikazKorpe(dohvatiLS("korpa"));
         }
+        const formaObj = document.querySelector("#kontaktForm");
+        var inputFormObjects = formaObj.querySelectorAll(`input[type='text'],input[type='email']`);
+        proveraFormeUzivo(inputFormObjects);
+
     }
     //Konstante za footer
     var nizFuter = await dohvatiPodatkePromise("futerLinkovi.json");
@@ -193,7 +198,7 @@ window.onload = async function(){
 
 function proveraFormeUzivo(inputFormObjects){
     const formaSelect = document.querySelector("select");
-    var divCbx = document.querySelectorAll(".form-floating.col-md-12 > .row");
+    var divCbx = document.querySelector(".form-floating.col-md-12 > .row");
     formaSelect.addEventListener('change',function(){
         let pom = Number(formaSelect.value);
         // console.log(pom);
@@ -201,23 +206,35 @@ function proveraFormeUzivo(inputFormObjects){
             formaSelect.previousElementSibling.classList.remove("text-danger"); 
             formaSelect.previousElementSibling.classList.add("text-success");
             formaSelect.classList.remove("az-form-border");
-            prikazCheckBoxova(pom);
-            divCbx[0].previousElementSibling.classList.remove("az-invisible");
-            divCbx[0].classList.remove('az-invisible');
-             divCbx[1].classList.remove('az-invisible');
+            
+            console.log(pom);
+            console.log(divCbx);
+
+            if(pom==2){
+                divCbx.innerHTML = ` <div class="form-floating col-md-12">
+                    <input type="text" class="form-control" id="inputAdresa" placeholder="Partizanska 27"/>
+                    <label for="inputAdresa" class="form-label ps-3">Adresa: <span class="text-danger"><i class="fa-regular fa-asterisk"></i></span></label>
+                    <p class="az-red mt-2 mb-0 ms-1 az-invisible fw-bold"></p>
+                </div><div class="form-floating col-md-12 mt-3">
+                <input type="text" class="form-control" id="inputGrad" placeholder="Beograd"/>
+                <label for="inputGrad" class="form-label ps-3">Grad: <span class="text-danger"><i class="fa-regular fa-asterisk"></i></span></label>
+                <p class="az-red mt-2 mb-0 ms-1 az-invisible fw-bold"></p>
+            </div>`;
+                divCbx.classList.remove('az-invisible');
+            }else{
+                divCbx.innerHTML = ``;
+                divCbx.classList.remove("az-invisible");
+            }
              
-            divCbx.forEach((elem) =>{
-                let p = elem.querySelectorAll("input[type='checkbox']");
-                p.forEach(elem => nizCboxa.push(elem));
-             });
+            // divCbx.forEach((elem) =>{
+            //     let p = elem.querySelectorAll("input[type='checkbox']");
+            //     p.forEach(elem => nizCboxa.push(elem));
+            //  });
          }else{
              formaSelect.previousElementSibling.classList.add("text-danger");
              formaSelect.previousElementSibling.classList.remove("text-success");
              formaSelect.classList.add("az-form-border");
-             divCbx[0].previousElementSibling.classList.add("az-invisible");
-             divCbx[0].classList.add('az-invisible');
-             divCbx[1].classList.add('az-invisible');
-             divCbx[1].nextElementSibling.classList.add("az-invisible");
+             divCbx.classList.add('az-invisible');
          }
     })
     
@@ -366,16 +383,7 @@ function proveraForme(){
     let br = 0;
     if(selectFormObject.selectedIndex){
         selectFormObject.classList.remove("az-form-border");
-        nizCboxa.forEach(function(elem){
-            if(elem.checked) br++;
-        });
-        if(!br){
-            // console.log(document.querySelector(".form-floating.col-md-12 > .row").nextElementSibling.nextElementSibling);
-            document.querySelector(".form-floating.col-md-12 > .row").nextElementSibling.nextElementSibling.classList.remove("az-invisible");
-            bool = false;
-        }else {
-            document.querySelector(".form-floating.col-md-12 > .row").nextElementSibling.nextElementSibling.classList.add("az-invisible");
-        }
+        
     }else {bool = false;selectFormObject.classList.add("az-form-border");};
 
     if(!radioObj.value){
@@ -386,22 +394,16 @@ function proveraForme(){
         
     }
     if(bool){
-        this.previousElementSibling.classList.remove("az-red")
-        this.previousElementSibling.classList.add("text-success");
-        this.previousElementSibling.innerHTML = "Uspešno ste naručili hranu !";
-
-        inputFormObjects.forEach((element,indeks) =>{
-                element.value = '';
-        });
-        selectFormObject.selectedIndex = 0;
-        selectFormObject.previousElementSibling.classList.add("text-danger");
-        selectFormObject.previousElementSibling.classList.remove("text-success");
-        selectFormObject.classList.remove("az-form-border");
-        let divCbx = document.querySelectorAll(".form-floating.col-md-12 > .row");
-        divCbx[0].previousElementSibling.classList.add("az-invisible");
-        divCbx[0].classList.add('az-invisible');
-        divCbx[1].classList.add('az-invisible');
-        divCbx[1].nextElementSibling.classList.add("az-invisible");
+        this.parentElement.parentElement.innerHTML = `<p class="fs-3 fw-bold text-success">Uspešno ste poručili artikle</p>`;
+        
+        setTimeout(function(){
+            let $p = $("#poruciModal");
+            $p.animate({opacity:"0"},300);
+            setTimeout(function(){$($p).removeClass("az-visible");},300);
+            $('#pozadinaModal').remove();
+            localStorage.clear();
+            prikazPraznuKorpu();
+        },2000);
 
     }else{
         this.previousElementSibling.classList.add("az-red")
@@ -416,7 +418,9 @@ function proveriElem(element){
     let regExpTel = /^(06[^7]\/[0-9]{7})|(067\/7[0-9]{6})$/;
     let regExpMejl = /^[\w\_]{3,}\@[a-z]{3,}\.[a-z]{2,3}$/;
     let regExpIme = /^([A-ZČĆŽŠĐ][a-zčćžšđ]{2,})(\s[A-ZČĆŽŠĐ][a-zčćžšđ]{2,})*$/;
-            var regIme = /input(?=(Ime|Prezime))/;
+    let regExpAdresa = /^(((\d{2,4}\.?)((\s(([a-zčćžšđ]{3,}))+))+))|(([A-ZČĆŽŠĐ][a-zčćžšđ]{2,})(\s(\w+))*)$/;
+
+            var regIme = /input(?=(Ime|Prezime|Grad))/;
             if(element.id.match(regIme)){
                 provera = regExpIme.test(element.value);
             }
@@ -425,6 +429,9 @@ function proveriElem(element){
             }
             if(element.id =='inputTelefon'){
                 provera = regExpTel.test(element.value);
+            }
+            if(element.id =='inputAdresa'){
+                provera = regExpAdresa.test(element.value);
             }
             if(!provera){
                 element.classList.add("az-form-border");
@@ -437,34 +444,12 @@ function proveriElem(element){
     return provera;
 }
 
-// function prikazCheckBoxova(pom){
-//     let cuvaj = document.querySelector(".form-floating.col-md-12 > .row");
-//     cuvaj.innerHTML = '';
-//     let brElem;
-//     switch(pom){
-//         case 3:  brElem=5; break;
-//         default: brElem=6;
-//     }
-//     for(let i =0;i<brElem;i++){
-//         let divObj = document.createElement("div");
-//         divObj.classList.add("col-4","text-center"); 
-//         let inputCbx = document.createElement("input");
-//         let idCbx = nizProizvoda[i].substring(0,5).toLowerCase();
-//         inputCbx.setAttribute("id",idCbx);
-//         inputCbx.setAttribute("type","checkbox");
-//         inputCbx.setAttribute("value",`${i}`);
-//         inputCbx.classList.add("form-check-input","me-2");
-//         let lblCbx = document.createElement("label");
-//         lblCbx.setAttribute("for",idCbx);
-//         lblCbx.classList.add("form-check-label");
-//         lblCbx.innerText = nizProizvoda[i];
+function prikazInput(pom){
+    let cuvaj = document.querySelector(".form-floating.col-md-12 > .row");
+    cuvaj.innerHTML = '';
 
-//         divObj.appendChild(inputCbx);
-//         divObj.appendChild(lblCbx);
-//         cuvaj.appendChild(divObj);
-//         if(i==2) {cuvaj = cuvaj.nextElementSibling; cuvaj.innerHTML=''};
-//     }
-// }
+    
+}
 
 function padajuciMeni(){
     $("#btnMeni").click(function(){
@@ -536,13 +521,13 @@ function crtanjeModala(obj){
     console.log(1);
     $('<div id="pozadinaModal" class="modal-backdrop fade show"></div>').appendTo($("body"));
 
-    $($(obj).find(".btn")).click(function(){
+    $($(obj).find(".btn-close,.btn-secondary")).click(function(){
         let $p = $(this).parent().parent().parent().parent();
         $p.animate({opacity:"0"},300);
         setTimeout(function(){$($p).removeClass("az-visible");},300);
         $('#pozadinaModal').remove();
     })
-        
+    $("#dugmeProvera").click(proveraForme);
     
 }
 
@@ -1192,9 +1177,3 @@ function prikazModalaPoruci(){
     crtanjeModala(obj);
 }
 
-// $($(obj).find(".btn")).click(function(){
-//     let $p = $(this).parent().parent().parent().parent();
-//     $p.animate({opacity:"0"},300);
-//     setTimeout(function(){$($p).removeClass("az-visible");},300);
-//     $('#pozadinaModal').remove();
-// })
