@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "naziv": "Akcione igre"
+    },
+    {
+        "id":2,
+        "naziv": "Avanturističke igre"
+    },
+    {
+        "id":3,
+        "naziv": "Horor igre"
+    },
+    {
+        "id":4,
+        "naziv": "Dečije igre"
+    },
+    {
+        "id":5,
+        "naziv": "RPG igre"
+    },
+    {
+        "id":6,
+        "naziv": "Sportske igre"
+    },
+    {
+        "id":7,
+        "naziv": "Trkačke igre"
+    },
+    {
+        "id":8,
+        "naziv": "FPS igre"
+    },
+    {
+        "id":9,
+        "naziv": "Platformerske igre"
+    },
+    {
+        "id":10,
+        "naziv": "Borilacke igre"
+    }
+]

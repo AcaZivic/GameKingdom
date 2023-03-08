@@ -1,0 +1,23 @@
+[
+    {
+        "id":0,
+        "naziv": "Februarska akcija",
+        "datumPoc":"2023-02-12",
+        "datumKraj":"2023-02-28","slika":{
+            "src":"assets/images/banerFebruar.png",
+            "alt":"Baner Februarska Akcija"
+        },
+        "opis":"Ugrabi odlične video igre za sve platforme po sniženim cenama."
+    },
+    {
+        "id":1,
+        "naziv": "Martovska akcija",
+        "datumPoc": "2023-03-01",
+        "datumKraj": "2023-03-25",
+        "slika":{
+            "src":"assets/images/banerMart.png",
+            "alt":"Baner Martovska Akcija"
+        },
+        "opis":"Ugrabi odlične video igre za sve platforme po sniženim cenama."
+    }
+]

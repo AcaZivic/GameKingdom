@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Game Kingdom - vesti</title>
+    <link>https://acazivic.github.io/BakinoCudoDoo/index.html</link>
+    <description>Važne informacije o ponudi web prodavnice.</description>
+    <item>
+        <title>Proizvodi</title>
+        <link>https://acazivic.github.io/BakinoCudoDoo/pages/saveti.html</link>
+        <description>Sve video igre koje su trenutno na lageru</description>
+    </item>
+    <item>
+        <title>Meni</title>
+        <link>https://acazivic.github.io/BakinoCudoDoo/pages/meni.html</link>
+        <description>Meni se stalno menja i možete videti šta je trenutno dostupno za naručivanje.</description>
+    </item>
+</channel>
+</rss>

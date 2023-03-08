@@ -1,0 +1,1046 @@
+[
+    {
+        "id":1,
+        "naziv": "PS4 Resident Evil Village",
+        "sifra": "041561",
+        "proizvodjac": 8,
+        "datumIzlaska":"2021-05-07",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,3,8],
+        "slika":{
+            "alt":"PS4 Resident Evil Village omot",
+            "src":"assets/images/proizvodi/ps4-resident-evil-village.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara": 5999,
+            "cenaNova":null
+        },
+        "opis":"Resident Evil Village, osmi glavni nastavak čuvene Resident Evil franšize donosi nam horor kakav još nismo videli. Nova priča počinje par godina nakon događaja u Resident Evil 7. Ethan Winters i njegova žena Mia, žive mirnim životom, daleko od horora iz prošlosti. Nažalost, porodična idila ne traje dugo."
+    },
+    {
+        "id":2,
+        "naziv": "PS5 Resident Evil Village",
+        "sifra": "041562",
+        "proizvodjac": 8,
+        "datumIzlaska":"2021-05-07",
+        "platforme": [3],
+        "pegiOznaka":5,
+        "zanrovi":[1,3,8],
+        "slika":{
+            "alt":"PS5 Resident Evil Village omot",
+            "src":"assets/images/proizvodi/ps5-resident-evil-village.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara": 6499,
+            "cenaNova":null
+        },
+        "opis":"Resident Evil Village, osmi glavni nastavak čuvene Resident Evil franšize donosi nam horor kakav još nismo videli. Nova priča počinje par godina nakon događaja u Resident Evil 7. Ethan Winters i njegova žena Mia, žive mirnim životom, daleko od horora iz prošlosti. Nažalost, porodična idila ne traje dugo."
+    },
+    {
+        "id":3,
+        "naziv": "XBOXONE/XSX Resident Evil Village",
+        "sifra": "041563",
+        "proizvodjac": 8,
+        "datumIzlaska":"2021-05-07",
+        "platforme": [5,6],
+        "pegiOznaka":5,
+        "zanrovi":[1,3,8],
+        "slika":{
+            "alt":"XBOX Resident Evil Village omot",
+            "src":"assets/images/proizvodi/xboxOne-xboxSX-resident-evil-village.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara": 6499,
+            "cenaNova":null
+        },
+        "opis":"Resident Evil Village, osmi glavni nastavak čuvene Resident Evil franšize donosi nam horor kakav još nismo videli. Nova priča počinje par godina nakon događaja u Resident Evil 7. Ethan Winters i njegova žena Mia, žive mirnim životom, daleko od horora iz prošlosti. Nažalost, porodična idila ne traje dugo."
+    },
+    {
+        "id":4,
+        "naziv": "PS4 NBA 2K23",
+        "sifra": "048024",
+        "proizvodjac": 6,
+        "datumIzlaska":"2022-09-09",
+        "platforme": [2],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"PS4 NBA 2K23 omot",
+            "src":"assets/images/proizvodi/ps4-nba2k23.jpeg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara": 8999,
+            "cenaNova": 3199
+        },
+        "opis":"Sa NBA 2K23 oseti igru sa obe strane lopte. Napadaj novim arsenalom ofanzivnih poteza zasnovanih na veštini, dok oslobađaš svoj potencijal kao defanzivac sa novom mehanikom igre 1-na-1.",
+        "top":true
+    },
+    {
+        "id":5,
+        "naziv": "PS5 NBA 2K23",
+        "sifra": "048027",
+        "proizvodjac": 6,
+        "datumIzlaska":"2022-09-09",
+        "platforme": [3],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"PS5 NBA 2K23 omot",
+            "src":"assets/images/proizvodi/ps5-nba2k23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara": 8999,
+            "cenaNova": 4399
+        },
+        "opis":"Sa NBA 2K23 oseti igru sa obe strane lopte. Napadaj novim arsenalom ofanzivnih poteza zasnovanih na veštini, dok oslobađaš svoj potencijal kao defanzivac sa novom mehanikom igre 1-na-1."
+    },
+    {
+        "id":6,
+        "naziv": "XBOXONE NBA 2K23",
+        "sifra": "048030",
+        "proizvodjac": 6,
+        "datumIzlaska":"2022-09-09",
+        "platforme": [5],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"XBOXONE NBA 2K23 omot",
+            "src":"assets/images/proizvodi/xboxOne-nba2k23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara": 8999,
+            "cenaNova": 3199
+        },
+        "opis":"Sa NBA 2K23 oseti igru sa obe strane lopte. Napadaj novim arsenalom ofanzivnih poteza zasnovanih na veštini, dok oslobađaš svoj potencijal kao defanzivac sa novom mehanikom igre 1-na-1."
+    },
+    {
+        "id":7,
+        "naziv": "XSX NBA 2K23",
+        "sifra": "048030",
+        "proizvodjac": 6,
+        "datumIzlaska":"2022-09-09",
+        "platforme": [6],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"XSX NBA 2K23 omot",
+            "src":"assets/images/proizvodi/xboxSX-nba2k23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara": 8999,
+            "cenaNova": 4399
+        },
+        "opis":"Sa NBA 2K23 oseti igru sa obe strane lopte. Napadaj novim arsenalom ofanzivnih poteza zasnovanih na veštini, dok oslobađaš svoj potencijal kao defanzivac sa novom mehanikom igre 1-na-1."
+    },
+    {
+        "id":8,
+        "naziv": "PS5 Ratchet & Clank: Rift Apart",
+        "sifra": "041612",
+        "proizvodjac": 7,
+        "datumIzlaska":"2021-06-11",
+        "platforme": [3],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"PS5 Ratchet & Clank: Rift Apart omot",
+            "src":"assets/images/proizvodi/ps5-ratchet-clank-rift-apart.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara": 9499,
+            "cenaNova":null
+        },
+        "opis":"Međugalaktički avanturisti su se vratili u novoj Playstation 5 igri Ratchet & Clank: Rift Apart. Kad je zli dr. Nefarious iskoristio uređaj koji može pristupiti alternativnim dimenzijama, kako bi našao dimenziju u kojoj on uvek izlazi kao pobednik, Ratchet i Clank su uvučeni i razdvojeni u različite dimenzije."
+    },
+    {
+        "id":9,
+        "naziv": "PS4 Unravel Yarney Bundle",
+        "sifra": "032210",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-11-11",
+        "platforme": [2],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"PS4 Unravel Yarney Bundle omot",
+            "src":"assets/images/proizvodi/ps4-unravel.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara": 3999,
+            "cenaNova":null
+        },
+        "opis":"Otkrijte dve fenomenalne igre - Unravel i Unravel 2 u jednom zajedničkom paketu. U Unravel glavni lik Yarni  je napravljen od jedne neprekidne strune vune i mora da se izbori sa čudesnim svetom platformi i rešavanja zagonetki. U drugom delu možete napraviti i drugog Yarnija i igrati u lokalnom kooperativnom modu ili u klasičnom single-player modu. "
+    },
+    {
+        "id":10,
+        "naziv": "XBOXONE Unravel Yarney Bundle",
+        "sifra": "032211",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-11-11",
+        "platforme": [5],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"XBOXONE Unravel Yarney Bundle omot",
+            "src":"assets/images/proizvodi/xboxOne-unravel.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara": 3999
+        },
+        "opis":"Otkrijte dve fenomenalne igre - Unravel i Unravel 2 u jednom zajedničkom paketu. U Unravel glavni lik Yarni  je napravljen od jedne neprekidne strune vune i mora da se izbori sa čudesnim svetom platformi i rešavanja zagonetki. U drugom delu možete napraviti i drugog Yarnija i igrati u lokalnom kooperativnom modu ili u klasičnom single-player modu. "
+    },
+    {
+        "id":11,
+        "naziv": "PS4 FIFA 23",
+        "sifra": "046658",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-09-30",
+        "platforme": [2],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"PS4 FIFA 23 omot",
+            "src":"assets/images/proizvodi/ps4-fifa23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":8999,
+            "cenaNova" :4499
+        },
+        "opis":"Dobrodošli u novu eru fudbala! FIFA 23 donosi novu mehaniku u izvođenju slobodnih udaraca, kornera, penala. Unapređena animacija, šutiranje, dodavanje, odbrana. Poseban akcenat stavljamo na bolju reakciju i taktičku svesnost AI igrača! ",
+        "top":true
+    },
+    {
+        "id":12,
+        "naziv": "PC FIFA 23",
+        "sifra": "046668",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-09-30",
+        "platforme": [1],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"PC FIFA 23 omot",
+            "src":"assets/images/proizvodi/pc-fifa23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":8999,
+            "cenaNova" :4499
+        },
+        "opis":"Dobrodošli u novu eru fudbala! FIFA 23 donosi novu mehaniku u izvođenju slobodnih udaraca, kornera, penala. Unapređena animacija, šutiranje, dodavanje, odbrana. Poseban akcenat stavljamo na bolju reakciju i taktičku svesnost AI igrača! "
+        
+    },
+    {
+        "id":13,
+        "naziv": "XBOXONE FIFA 23",
+        "sifra": "046660",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-09-30",
+        "platforme": [5],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"XBOXONE FIFA 23 omot",
+            "src":"assets/images/proizvodi/xboxOne-fifa23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":8999,
+            "cenaNova" :4499
+        },
+        "opis":"Dobrodošli u novu eru fudbala! FIFA 23 donosi novu mehaniku u izvođenju slobodnih udaraca, kornera, penala. Unapređena animacija, šutiranje, dodavanje, odbrana. Poseban akcenat stavljamo na bolju reakciju i taktičku svesnost AI igrača! "
+    },
+    {
+        "id":14,
+        "naziv": "XSX FIFA 23",
+        "sifra": "046661",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-09-30",
+        "platforme": [6],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"XSX FIFA 23 omot",
+            "src":"assets/images/proizvodi/xboxSX-fifa23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":9999,
+            "cenaNova" :5499
+        },
+        "opis":"Dobrodošli u novu eru fudbala! FIFA 23 donosi novu mehaniku u izvođenju slobodnih udaraca, kornera, penala. Unapređena animacija, šutiranje, dodavanje, odbrana. Poseban akcenat stavljamo na bolju reakciju i taktičku svesnost AI igrača! "
+    },
+    {
+        "id":15,
+        "naziv": "PS5 FIFA 23",
+        "sifra": "046659",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-09-30",
+        "platforme": [3],
+        "pegiOznaka":1,
+        "zanrovi":[6],
+        "slika":{
+            "alt":"PS5 FIFA 23 omot",
+            "src":"assets/images/proizvodi/ps5-fifa23.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":9999,
+            "cenaNova" :5499
+        },
+        "opis":"Dobrodošli u novu eru fudbala! FIFA 23 donosi novu mehaniku u izvođenju slobodnih udaraca, kornera, penala. Unapređena animacija, šutiranje, dodavanje, odbrana. Poseban akcenat stavljamo na bolju reakciju i taktičku svesnost AI igrača! "
+    },
+    {
+        "id":16,
+        "naziv": "PS5 Need for Speed: Unbound",
+        "sifra": "048856",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-12-02",
+        "platforme": [3],
+        "pegiOznaka":3,
+        "zanrovi":[7],
+        "slika":{
+            "alt":"PS5 Need for Speed: Unbound omot",
+            "src":"assets/images/proizvodi/ps5-nfs-unbound.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":9999,
+            "cenaNova":null
+        },
+        "opis":"Tokom četiri nedelje trka zaradi dovoljno novca da uđeš u kvalifikacije, pobedi konkurenciju i ostavi svoj trag na sceni uličnih trka dok bežiš od policije. U svojoj  garaži prilagodi auto baš onako kako želiš. "
+    },
+    {
+        "id":17,
+        "naziv": "XSX  Need for Speed: Unbound",
+        "sifra": "048857",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-12-02",
+        "platforme": [6],
+        "pegiOznaka":3,
+        "zanrovi":[7],
+        "slika":{
+            "alt":"XSX  Need for Speed: Unbound omot",
+            "src":"assets/images/proizvodi/xboxSX-nfs-unbound.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":9999,
+            "cenaNova":null
+        },
+        "opis":"Tokom četiri nedelje trka zaradi dovoljno novca da uđeš u kvalifikacije, pobedi konkurenciju i ostavi svoj trag na sceni uličnih trka dok bežiš od policije. U svojoj  garaži prilagodi auto baš onako kako želiš. "
+    },
+    {
+        "id":18,
+        "naziv": "PS4 Dreams",
+        "sifra": "036924",
+        "proizvodjac": 7,
+        "datumIzlaska":"2020-02-14",
+        "platforme": [2],
+        "pegiOznaka":3,
+        "zanrovi":[2,9,4],
+        "slika":{
+            "alt":"PS4 Dreams omot",
+            "src":"assets/images/proizvodi/ps4-dreams.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Dreams je izuzetan, stalo šireći univerzum za igre koji dolazi od nagrađenog Media Molecule, kreatora LittleBigPlanet i Tearaway, gde možete da otkrijete igre kreirane u zajednici širom sveta…i da naučite da napravite svoju."
+    },
+    {
+        "id":19,
+        "naziv": "PS4 Street Fighter V - Champion Edition",
+        "sifra": "037052",
+        "proizvodjac": 5,
+        "datumIzlaska":"2020-02-14",
+        "platforme": [2],
+        "pegiOznaka":3,
+        "zanrovi":[1,10],
+        "slika":{
+            "alt":"PS4 Street Fighter V",
+            "src":"assets/images/proizvodi/ps4-street-fighter-5.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"PS4 Street Fighter V Champion Edition ima 40 karaktera, 34 nivoa, i preko 200 kostima, urađenih od svega što je do sada izašlo za Street Fighter, sem Fighting Chance i kolaboracije sa brendovima i Capcom Pro Tour DLC. Sadrži i sve DLC izbačene do sada. "
+    },
+    {
+        "id":20,
+        "naziv": "PS4 The Last Guardian",
+        "sifra": "027138",
+        "proizvodjac": 7,
+        "datumIzlaska":"2016-12-07",
+        "platforme": [2],
+        "pegiOznaka":3,
+        "zanrovi":[2,4],
+        "slika":{
+            "alt":"PS4 The Last Guardian",
+            "src":"assets/images/proizvodi/ps4-the-last-guardian.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2499,
+            "cenaNova":null
+        },
+        "opis":"The Last Guardian je savršena mešavina elemenata ICO i Shadow of the Colossus igara. Zbilja protkana tehničkim poteškoćama koje joj narušavaju naslućujuću harmoniju, pružiće nezaboravnu pustolovinu svakom igraču koji sebi dopusti da ga atmosfera igre proguta. "
+    },
+    {
+        "id":21,
+        "naziv": "PS5 Marvel's Spider-Man Ultimate edition",
+        "sifra": "039201",
+        "proizvodjac": 7,
+        "datumIzlaska":"2020-11-19",
+        "platforme": [3],
+        "pegiOznaka":4,
+        "zanrovi":[1,4,5],
+        "slika":{
+            "alt":"PS5 Marvel's Spider-Man Ultimate edition",
+            "src":"assets/images/proizvodi/ps5-miles-morales-ultimate.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":9499,
+            "cenaNova":null
+        },
+        "opis":"PS5 Marvel's Spider-Man Ultimate izdanje sadrži: <ul><li>- osnovnu igru</li> <li>- Marvels Spiderman Remastered </li> <li>- DLC The City That Never Sleeps Remastered</li></ul>"
+    },
+    {
+        "id":22,
+        "naziv": "PS5 Marvel's Spider-Man",
+        "sifra": "039202",
+        "proizvodjac": 7,
+        "datumIzlaska":"2020-11-19",
+        "platforme": [3],
+        "pegiOznaka":4,
+        "zanrovi":[1,4,5],
+        "slika":{
+            "alt":"PS5 Marvel's Spider-Man Miles Morales",
+            "src":"assets/images/proizvodi/ps5-miles-morales.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":6999,
+            "cenaNova":null
+        },
+        "opis":"U najnovijoj avanturi Marvelovog Spiderman univerzuma, tinejdžer Miles Morales se privikava na svoj novi dom i kao novi Spiderman dosledno sledi put koji je zacrtao njegov mentor Peter Parker. "
+    },
+    {
+        "id":23,
+        "naziv": "PS4 UFC 4",
+        "sifra": "038495",
+        "proizvodjac": 5,
+        "datumIzlaska":"2020-08-14",
+        "platforme": [2],
+        "pegiOznaka":4,
+        "zanrovi":[10],
+        "slika":{
+            "alt":"PS4 UFC 4",
+            "src":"assets/images/proizvodi/ps4-ufc4.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":6499,
+            "cenaNova":null
+        },
+        "opis":"U UFC 4 vaš borac se oblikuje na osnovu vašeg stila borbe, postignuća ali i tipa ličnosti. Stignite od nepoznatog amatera do UFC superstara kroz novi mod karijere. Iskusite poreklo borilačkih sportova kroz dve potpuno nove lokacije - Kumite i Backyard. "
+    },
+    {
+        "id":24,
+        "naziv": "XBOXONE UFC 4",
+        "sifra": "038495",
+        "proizvodjac": 5,
+        "datumIzlaska":"2020-08-14",
+        "platforme": [5],
+        "pegiOznaka":4,
+        "zanrovi":[10],
+        "slika":{
+            "alt":"XBOXONE UFC 4 omot",
+            "src":"assets/images/proizvodi/xboxOne-ufc4.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":6499,
+            "cenaNova":null
+        },
+        "opis":"U UFC 4 vaš borac se oblikuje na osnovu vašeg stila borbe, postignuća ali i tipa ličnosti. Stignite od nepoznatog amatera do UFC superstara kroz novi mod karijere. Iskusite poreklo borilačkih sportova kroz dve potpuno nove lokacije - Kumite i Backyard. "
+    },
+    {
+        "id":25,
+        "naziv": "PS5 Uncharted: Legacy of Thieves Collection",
+        "sifra": "044258",
+        "proizvodjac": 7,
+        "datumIzlaska":"2022-01-28",
+        "platforme": [3],
+        "pegiOznaka":4,
+        "zanrovi":[1,2],
+        "slika":{
+            "alt":"PS5 Uncharted: Legacy of Thieves Collection omot",
+            "src":"assets/images/proizvodi/ps5-uncharted-legacy.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":5999,
+            "cenaNova":null
+        },
+        "opis":"Pronađi svoju sreću i ostavi trag na mapi. Iskusi filmsku priču i akcione blockbuster scene prepune duha, lukavstava i dramatičnih trenutaka naširoko voljenih lopova – Nathana Drakea i Chloe Frazer."
+    },
+    {
+        "id":26,
+        "naziv": "PC It Takes Two",
+        "sifra": "040843",
+        "proizvodjac": 5,
+        "datumIzlaska":"2021-03-26",
+        "platforme": [1],
+        "pegiOznaka":4,
+        "zanrovi":[2,4,9],
+        "slika":{
+            "alt":"PC It Takes Two omot",
+            "src":"assets/images/proizvodi/pc-it-takes-two.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":4999,
+            "cenaNova":2499
+        },
+        "opis":"Ukrcajte se na najluđe putovanje u vašem životu u It Takes Two. Pozovite prijatelja da vam se priključi preko Friend Pass opcije, bez potrebe da se kupi druga igra, i zajedno prolazite kroz lude nivoe i izazove na koje nailaze Kodi i Mej. Napravljena isključivo za kooperativnu igru."
+    },
+    {
+        "id":27,
+        "naziv": "PS4/PS5 It Takes Two",
+        "sifra": "040841",
+        "proizvodjac": 5,
+        "datumIzlaska":"2021-03-26",
+        "platforme": [2,3],
+        "pegiOznaka":4,
+        "zanrovi":[2,4,9],
+        "slika":{
+            "alt":"PS4/PS5 It Takes Two omot",
+            "src":"assets/images/proizvodi/ps4-ps5-it-takes-two.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":4999,
+            "cenaNova":2499
+        },
+        "opis":"Ukrcajte se na najluđe putovanje u vašem životu u It Takes Two. Pozovite prijatelja da vam se priključi preko Friend Pass opcije, bez potrebe da se kupi druga igra, i zajedno prolazite kroz lude nivoe i izazove na koje nailaze Kodi i Mej. Napravljena isključivo za kooperativnu igru."
+    },
+    {
+        "id":28,
+        "naziv": "Switch It Takes Two",
+        "sifra": "048411",
+        "proizvodjac": 5,
+        "datumIzlaska":"2022-11-04",
+        "platforme": [4],
+        "pegiOznaka":4,
+        "zanrovi":[2,4,9],
+        "slika":{
+            "alt":"Switch It Takes Two omot",
+            "src":"assets/images/proizvodi/switch-it-takes-two.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":4999,
+            "cenaNova":3999
+        },
+        "opis":"Ukrcajte se na najluđe putovanje u vašem životu u It Takes Two. Pozovite prijatelja da vam se priključi preko Friend Pass opcije, bez potrebe da se kupi druga igra, i zajedno prolazite kroz lude nivoe i izazove na koje nailaze Kodi i Mej. Napravljena isključivo za kooperativnu igru."
+    },
+    {
+        "id":29,
+        "naziv": "XBOXONE/XSX It Takes Two",
+        "sifra": "040851",
+        "proizvodjac": 5,
+        "datumIzlaska":"2021-03-26",
+        "platforme": [5,6],
+        "pegiOznaka":4,
+        "zanrovi":[2,4,9],
+        "slika":{
+            "alt":"XBOXONE/XSX It Takes Two omot",
+            "src":"assets/images/proizvodi/xboxOne-xboxSX-it-takes-two.jpg"
+        },
+        "cenaInfo":{
+            "promocija":1,
+            "cenaStara":4999,
+            "cenaNova":2499
+        },
+        "opis":"Ukrcajte se na najluđe putovanje u vašem životu u It Takes Two. Pozovite prijatelja da vam se priključi preko Friend Pass opcije, bez potrebe da se kupi druga igra, i zajedno prolazite kroz lude nivoe i izazove na koje nailaze Kodi i Mej. Napravljena isključivo za kooperativnu igru.",
+        "top":true
+    },
+    {
+        "id":30,
+        "naziv": "PC Cyberpunk 2077",
+        "sifra": "035612",
+        "proizvodjac": 1,
+        "datumIzlaska":"2020-12-10",
+        "platforme": [1],
+        "pegiOznaka":5,
+        "zanrovi":[1,5,8],
+        "slika":{
+            "alt":"PC Cyberpunk 2077 omot",
+            "src":"assets/images/proizvodi/pc-cyberpunk-2077.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Cyberpunk 2077 je open-world akciona avantura smeštena u Night City, megalopolis opsednut glamurom, moću i modifikacijom tela. Igraš kao V, plaćenik u potrazi za implantom koji je ključ za besmrtnost. Možeš podešavati svoj stil igre sa implantima, sposobnostima i istražiti ogroman grad gde tvoje odluke menjaju priču i svet oko tebe.",
+        "top":true
+    },
+    {
+        "id":31,
+        "naziv": "PS4 Cyberpunk 2077",
+        "sifra": "035614",
+        "proizvodjac": 1,
+        "datumIzlaska":"2020-12-10",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,5,8],
+        "slika":{
+            "alt":"PS4 Cyberpunk 2077 omot",
+            "src":"assets/images/proizvodi/ps4-cyberpunk-2077.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"Cyberpunk 2077 je open-world akciona avantura smeštena u Night City, megalopolis opsednut glamurom, moću i modifikacijom tela. Igraš kao V, plaćenik u potrazi za implantom koji je ključ za besmrtnost. Možeš podešavati svoj stil igre sa implantima, sposobnostima i istražiti ogroman grad gde tvoje odluke menjaju priču i svet oko tebe."
+    },
+    {
+        "id":32,
+        "naziv": "Switch The Witcher 3: Wild Hunt",
+        "sifra": "034047",
+        "proizvodjac": 1,
+        "datumIzlaska":"2019-10-15",
+        "platforme": [4],
+        "pegiOznaka":5,
+        "zanrovi":[1,2,5],
+        "slika":{
+            "alt":"Switch The Witcher 3 omot",
+            "src":"assets/images/proizvodi/switch-witcher-3.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":5499,
+            "cenaNova":null
+        },
+        "opis":"Ogroman otvoreni svet za istraživanje, posetite luksuzni i korumpirani Novigrad, hladna Skelige ostrva, i izazovite sile mraka. Plovite otvorenim morima, uronite u potragu za izgubljenim artifaktima ili jašite u borbu - svet Wichera vas čeka da ga istražite. Preko 150 sati igranja u jedinstvenoj kombinaciji RPG elemenata i otvorenog sveta."
+    },
+    {
+        "id":33,
+        "naziv": "PS5 The Witcher 3: Wild Hunt - Complete Edition",
+        "sifra": "050330",
+        "proizvodjac": 1,
+        "datumIzlaska":"2023-01-26",
+        "platforme": [3],
+        "pegiOznaka":5,
+        "zanrovi":[1,2,5],
+        "slika":{
+            "alt":"PS5 The Witcher 3 omot",
+            "src":"assets/images/proizvodi/ps5-witcher-3.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":5499,
+            "cenaNova":null
+        },
+        "opis":"Ogroman otvoreni svet za istraživanje, posetite luksuzni i korumpirani Novigrad, hladna Skelige ostrva, i izazovite sile mraka. Plovite otvorenim morima, uronite u potragu za izgubljenim artifaktima ili jašite u borbu - svet Wichera vas čeka da ga istražite. Preko 150 sati igranja u jedinstvenoj kombinaciji RPG elemenata i otvorenog sveta."
+    },
+    {
+        "id":34,
+        "naziv": "PS4 The Witcher 3 Wild Hunt GOTY",
+        "sifra": "050330",
+        "proizvodjac": 1,
+        "datumIzlaska":"2019-10-15",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,2,5],
+        "slika":{
+            "alt":"PS4 The Witcher 3 omot",
+            "src":"assets/images/proizvodi/ps4-witcher-3.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"Ogroman otvoreni svet za istraživanje, posetite luksuzni i korumpirani Novigrad, hladna Skelige ostrva, i izazovite sile mraka. Plovite otvorenim morima, uronite u potragu za izgubljenim artifaktima ili jašite u borbu - svet Wichera vas čeka da ga istražite. Preko 150 sati igranja u jedinstvenoj kombinaciji RPG elemenata i otvorenog sveta."
+    },
+    {
+        "id":35,
+        "naziv": "XBOXONE/XSX The Witcher 3 Wild Hunt GOTY",
+        "sifra": "050330",
+        "proizvodjac": 1,
+        "datumIzlaska":"2019-10-15",
+        "platforme": [5,6],
+        "pegiOznaka":5,
+        "zanrovi":[1,2,5],
+        "slika":{
+            "alt":"XBOXONE The Witcher 3 omot",
+            "src":"assets/images/proizvodi/xboxOne-witcher-3.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"Ogroman otvoreni svet za istraživanje, posetite luksuzni i korumpirani Novigrad, hladna Skelige ostrva, i izazovite sile mraka. Plovite otvorenim morima, uronite u potragu za izgubljenim artifaktima ili jašite u borbu - svet Wichera vas čeka da ga istražite. Preko 150 sati igranja u jedinstvenoj kombinaciji RPG elemenata i otvorenog sveta."
+    },
+    {
+        "id":36,
+        "naziv": "XBOXONE Crash Team Racing Nitro-Fueled",
+        "sifra": "032287",
+        "proizvodjac": 3,
+        "datumIzlaska":"2019-06-21",
+        "platforme": [5],
+        "pegiOznaka":1,
+        "zanrovi":[4,6],
+        "slika":{
+            "alt":"XBOXONE Crash Team Racing omot",
+            "src":"assets/images/proizvodi/xboxOne-crash-nitro.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"Stisnite gas do daske sa Crash Team Racing Nitro-Fueled. Autentično iskustvo zabavnog karting trkanja sada potpuno remasterovano i podignuto do maksimuma:- Pokrenite motore sa originalnim modovima igranja, karakterima, stazama, oružjima i kontrolama."
+    },
+    {
+        "id":37,
+        "naziv": "PS4 Crash Team Racing Nitro-Fueled",
+        "sifra": "032263",
+        "proizvodjac": 3,
+        "datumIzlaska":"2019-06-21",
+        "platforme": [2],
+        "pegiOznaka":1,
+        "zanrovi":[4,6],
+        "slika":{
+            "alt":"PS4 Crash Team Racing omot",
+            "src":"assets/images/proizvodi/ps4-crash-nitro.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"Stisnite gas do daske sa Crash Team Racing Nitro-Fueled. Autentično iskustvo zabavnog karting trkanja sada potpuno remasterovano i podignuto do maksimuma:- Pokrenite motore sa originalnim modovima igranja, karakterima, stazama, oružjima i kontrolama."
+    },
+    {
+        "id":38,
+        "naziv": "Switch Crash Team Racing Nitro-Fueled",
+        "sifra": "032797",
+        "proizvodjac": 3,
+        "datumIzlaska":"2019-06-21",
+        "platforme": [4],
+        "pegiOznaka":1,
+        "zanrovi":[4,6],
+        "slika":{
+            "alt":"Switch Crash Team Racing omot",
+            "src":"assets/images/proizvodi/switch-crash-nitro.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":3999,
+            "cenaNova":null
+        },
+        "opis":"Stisnite gas do daske sa Crash Team Racing Nitro-Fueled. Autentično iskustvo zabavnog karting trkanja sada potpuno remasterovano i podignuto do maksimuma:- Pokrenite motore sa originalnim modovima igranja, karakterima, stazama, oružjima i kontrolama."
+    },
+    {
+        "id":39,
+        "naziv": "Switch Crash Bandicoot 4 It's about time",
+        "sifra": "047741",
+        "proizvodjac": 3,
+        "datumIzlaska":"2020-10-02",
+        "platforme": [4],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"Switch Crash Bandicoot 4 omot",
+            "src":"assets/images/proizvodi/switch-crash-time.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Nastavljajući serijal koji obožavaoci znaju i vole Crash Bandicoot 4: It's about time stavlja omiljenog torbara svih nas u položaj da pravi nove skokove i trikove. Otkrijte nove svetove, naiđite na neočekivane neprijatelje, borite se protiv ogromnih bosova i prikupljajte nove Quantum maske"
+    },
+    {
+        "id":40,
+        "naziv": "PS4 Crash Bandicoot 4 It's about time",
+        "sifra": "038334",
+        "proizvodjac": 3,
+        "datumIzlaska":"2020-10-02",
+        "platforme": [2],
+        "pegiOznaka":3,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"PS4 Crash Bandicoot 4 omot",
+            "src":"assets/images/proizvodi/ps4-crash-time.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Nastavljajući serijal koji obožavaoci znaju i vole Crash Bandicoot 4: It's about time stavlja omiljenog torbara svih nas u položaj da pravi nove skokove i trikove. Otkrijte nove svetove, naiđite na neočekivane neprijatelje, borite se protiv ogromnih bosova i prikupljajte nove Quantum maske"
+    },
+    {
+        "id":41,
+        "naziv": "XBOXONE/XSX Crash Bandicoot 4 It's about time",
+        "sifra": "038334",
+        "proizvodjac": 3,
+        "datumIzlaska":"2020-10-02",
+        "platforme": [5,6],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"XBOXONE Crash Bandicoot 4 omot",
+            "src":"assets/images/proizvodi/xboxOne-crash-time.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Nastavljajući serijal koji obožavaoci znaju i vole Crash Bandicoot 4: It's about time stavlja omiljenog torbara svih nas u položaj da pravi nove skokove i trikove. Otkrijte nove svetove, naiđite na neočekivane neprijatelje, borite se protiv ogromnih bosova i prikupljajte nove Quantum maske"
+    },
+    {
+        "id":42,
+        "naziv": "XBOXONE/XSX Crash Bandicoot N. Sane Trilogy",
+        "sifra": "030031",
+        "proizvodjac": 3,
+        "datumIzlaska":"2018-06-29",
+        "platforme": [5,6],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"XBOXONE Crash Bandicoot triology omot",
+            "src":"assets/images/proizvodi/xboxOne-crash-triology.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Omiljeni torbar iz video igara Crash Bandicoot ove godine po prvi put dolazi na XBOXONE. Imate priliku da igrate sve tri originalne igre u novom, remasterovanom izdanju. Dolazi sa 4K i HDR podrškom."
+    },
+    {
+        "id":43,
+        "naziv": "PS4 Crash Bandicoot N. Sane Trilogy",
+        "sifra": "031339",
+        "proizvodjac": 3,
+        "datumIzlaska":"2018-06-29",
+        "platforme": [2],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"PS4 Crash Bandicoot triology omot",
+            "src":"assets/images/proizvodi/ps4-crash-triology.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Omiljeni torbar iz video igara Crash Bandicoot ove godine po prvi put dolazi na XBOXONE. Imate priliku da igrate sve tri originalne igre u novom, remasterovanom izdanju. Dolazi sa 4K i HDR podrškom."
+    },
+    {
+        "id":44,
+        "naziv": "Switch Crash Bandicoot N. Sane Trilogy",
+        "sifra": "030032",
+        "proizvodjac": 3,
+        "datumIzlaska":"2018-06-29",
+        "platforme": [4],
+        "pegiOznaka":2,
+        "zanrovi":[4,9],
+        "slika":{
+            "alt":"Switch Crash Bandicoot triology omot",
+            "src":"assets/images/proizvodi/switch-crash-triology.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":4999,
+            "cenaNova":null
+        },
+        "opis":"Omiljeni torbar iz video igara Crash Bandicoot ove godine po prvi put dolazi na XBOXONE. Imate priliku da igrate sve tri originalne igre u novom, remasterovanom izdanju. Dolazi sa 4K i HDR podrškom."
+    },
+    {
+        "id":45,
+        "naziv": "XBOXONE/XSX Call of Duty: Modern Warfare II",
+        "sifra": "046227",
+        "proizvodjac": 3,
+        "datumIzlaska":"2022-10-28",
+        "platforme": [5,6],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"XBOXONE Modern Warfare II omot",
+            "src":"assets/images/proizvodi/xboxOne-cod-mw-2.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":9999,
+            "cenaNova":null
+        },
+        "opis":"Dobrodošli u novu eru Call of Duty! Call of Duty: Modern Warfare II je nastavak hita Modern Warfare iz 2019. godine. Očekujte povratak legendarnog kapetana John Price, neustrašivog John 'Soap' MacTavish, kao i omiljenog među igračima Simon 'Ghost' Riley"
+    },
+    {
+        "id":46,
+        "naziv": "PS4 Call of Duty: Modern Warfare II",
+        "sifra": "046225",
+        "proizvodjac": 3,
+        "datumIzlaska":"2022-10-28",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"PS4 Modern Warfare II omot",
+            "src":"assets/images/proizvodi/ps4-cod-mw-2.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":9999,
+            "cenaNova":null
+        },
+        "opis":"Dobrodošli u novu eru Call of Duty! Call of Duty: Modern Warfare II je nastavak hita Modern Warfare iz 2019. godine. Očekujte povratak legendarnog kapetana John Price, neustrašivog John 'Soap' MacTavish, kao i omiljenog među igračima Simon 'Ghost' Riley"
+    },
+    {
+        "id":47,
+        "naziv": "PS5 Call of Duty: Modern Warfare II",
+        "sifra": "046226",
+        "proizvodjac": 3,
+        "datumIzlaska":"2022-10-28",
+        "platforme": [3],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"PS5 Modern Warfare II omot",
+            "src":"assets/images/proizvodi/ps5-cod-mw-2.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":9999,
+            "cenaNova":null
+        },
+        "opis":"Dobrodošli u novu eru Call of Duty! Call of Duty: Modern Warfare II je nastavak hita Modern Warfare iz 2019. godine. Očekujte povratak legendarnog kapetana John Price, neustrašivog John 'Soap' MacTavish, kao i omiljenog među igračima Simon 'Ghost' Riley"
+    },
+    {
+        "id":48,
+        "naziv": "PS4 Doom Eternal",
+        "sifra": "034436",
+        "proizvodjac": 4,
+        "datumIzlaska":"2020-03-20",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"PS4 Doom Eternal omot",
+            "src":"assets/images/proizvodi/ps4-doom-eternal.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2499,
+            "cenaNova":null
+        },
+        "opis":"Doživi vrhunsku kombinaciju brzine i snage dok kidaš svoj put kroz dimenzije. DOOM Eternal te stavlja u ulogu nezaustavljivog DOOM Slayer dok raznosiš nove i klasične demone sa moćnim oružijem u potpuno neverovatnim, nikad viđenim svetovima."
+    },
+    {
+        "id":49,
+        "naziv": "XBOXONE Doom Eternal",
+        "sifra": "034444",
+        "proizvodjac": 4,
+        "datumIzlaska":"2020-03-20",
+        "platforme": [5],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"XBOXONE Doom Eternal omot",
+            "src":"assets/images/proizvodi/xboxOne-doom-eternal.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2499,
+            "cenaNova":null
+        },
+        "opis":"Doživi vrhunsku kombinaciju brzine i snage dok kidaš svoj put kroz dimenzije. DOOM Eternal te stavlja u ulogu nezaustavljivog DOOM Slayer dok raznosiš nove i klasične demone sa moćnim oružijem u potpuno neverovatnim, nikad viđenim svetovima."
+    },
+    {
+        "id":50,
+        "naziv": "Switch Doom Eternal",
+        "sifra": "034445",
+        "proizvodjac": 4,
+        "datumIzlaska":"2020-03-20",
+        "platforme": [4],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"Switch Doom Eternal omot",
+            "src":"assets/images/proizvodi/switch-doom-eternal.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2999,
+            "cenaNova":null
+        },
+        "opis":"Doživi vrhunsku kombinaciju brzine i snage dok kidaš svoj put kroz dimenzije. DOOM Eternal te stavlja u ulogu nezaustavljivog DOOM Slayer dok raznosiš nove i klasične demone sa moćnim oružijem u potpuno neverovatnim, nikad viđenim svetovima."
+    },
+    {
+        "id":51,
+        "naziv": "PS4 Wolfenstein The New Order & The Old Blood",
+        "sifra": "034445",
+        "proizvodjac": 4,
+        "datumIzlaska":"2021-03-20",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"PS4 Wolfenstein omot",
+            "src":"assets/images/proizvodi/ps4-wolfenstein.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2999,
+            "cenaNova":null
+        },
+        "opis":"Kompilacija dve igre: PS4 Wolfenstein The New Order i The Old Blood."
+    },
+    {
+        "id":52,
+        "naziv": "PS4 Wolfenstein The New Order & The Old Blood",
+        "sifra": "034445",
+        "proizvodjac": 4,
+        "datumIzlaska":"2021-03-20",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"PS4 Wolfenstein omot",
+            "src":"assets/images/proizvodi/ps4-wolfenstein.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2999,
+            "cenaNova":null
+        },
+        "opis":"Kompilacija dve igre: PS4 Wolfenstein The New Order i The Old Blood."
+    },
+    {
+        "id":53,
+        "naziv": "PS4 Call of Duty Modern Warfare Remastered",
+        "sifra": "028387",
+        "proizvodjac": 3,
+        "datumIzlaska":"2017-06-27",
+        "platforme": [2],
+        "pegiOznaka":4,
+        "zanrovi":[1,8],
+        "slika":{
+            "alt":"PS4 Modern Warfare 1 omot",
+            "src":"assets/images/proizvodi/ps4-cod-mw-1.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":2499,
+            "cenaNova":null
+        },
+        "opis":"Call of Duty 4 - Modern Warfare se vratio, sa osveženom grafikom u visokoj rezoluciji, poboljšanim teksturama, boljim osvetljenjem i mnogim drugim pobošljanjima koje nude konzole nove generacije."
+    },
+    {
+        "id":54,
+        "naziv": "PS4 The Quarry",
+        "sifra": "045890",
+        "proizvodjac": 2,
+        "datumIzlaska":"2022-06-10",
+        "platforme": [2],
+        "pegiOznaka":5,
+        "zanrovi":[2,3],
+        "slika":{
+            "alt":"PS4 The Quarry omot",
+            "src":"assets/images/proizvodi/ps4-the-quarry.jpg"
+        },
+        "cenaInfo":{
+            "cenaStara":5499,
+            "cenaNova":null
+        },
+        "opis":"Uzbudljiva tinejdžerska horor priča, u kojoj vaše odluke oblikuju kako se noć odvija. Dok sunce zalazi zadnjeg dana letnjeg kampa, savetnici u Hackett’s Kuarri prave zabavu. Stvari brzo kreću lošim putem. Proganjani krvožednim lokalnim stanovnicima i nečim još zlokobnijim."
+    }
+    
+]

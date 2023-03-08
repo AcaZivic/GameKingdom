@@ -1,0 +1,226 @@
+@media screen and (max-width:1375px) {
+    #odabraniProizvodi{
+        width: 85%;
+    }
+    .card-body{
+        flex-basis: 17rem;
+    }
+}
+@media screen and (max-width:1240px){
+    .az-head-h{
+        height: 10rem!important;   
+    }
+}
+@media  screen and (max-width:1200px) {
+    footer li,footer span, footer p{
+        font-size: 0.90rem;
+    }
+    #citat i{
+        left: -1.3rem;
+    }
+    .az-box{
+        font-size:0.6rem;
+    }
+    .az-m{
+        font-size: 0.86rem!important;
+    }
+    
+    .az-meni img{
+        width: 22.7rem;
+    }
+    #meniStrana::after{
+        width: 48%;
+    }
+    #meniStrana .az-mb-5{
+        margin-bottom: 2rem!important;
+    }
+    #proizvodiBlok .card-body{
+        flex-basis: 20rem;
+    }
+}
+@media  screen and (max-width:1024px) {
+    html{
+        font-size: 0.9em;
+    }
+    header h1.fs-1{
+        font-size: 2rem !important;
+    }
+    .az-m{
+        font-size: 0.9rem!important;
+    }
+    
+    .card-body{
+        flex-basis: 15rem;
+    }
+    table.w-75{
+        width: 100%!important;
+    }
+    
+}
+@media  screen and (max-width:991px) {
+    #navigacija li{
+        margin-top: 0.7rem!important;
+    }
+    .imgVelika img{
+        width: 21rem;
+    }
+    .az-meni img{
+        width: 19.3rem;
+    }
+
+    .az-mb-5{
+        margin-bottom: 0rem!important;
+    }
+    .az-pad{
+        padding: 0px 10% 0px 10%;
+    }
+    .card-body .row{
+        width: 67%!important;
+    }
+    .card-body .card-text.py-3{
+        margin-bottom: 0rem;
+        font-size: 0.9rem;
+    }
+    #carouselSliderIndicators{
+        width: 100%;
+    }
+    #spec{
+        margin-top: 1rem;
+        flex-direction: row!important;
+        justify-content: space-between!important;
+        width: 100%;
+    }
+    .az-box h5{
+        font-size: 1rem;
+    }
+    .az-head-h{
+        height: 7rem!important;
+    }
+    
+    footer p{
+        text-align: center;
+    }
+    footer ul.row, footer h3,h3.text-start,footer li{
+        text-align: center!important;
+    }
+    footer .copy{
+        margin: 0px auto;
+        margin-bottom: 1rem;
+    }
+    ul{
+        padding-left:0rem;
+    }
+    .newsletter form::after{
+        left: 3rem;
+    }
+    #proizvodiBlok .card-body{
+        flex-basis: 15rem;
+    }
+    
+    
+}
+@media  screen and (max-width:768px) {
+    html{
+        font-size: 0.8em;
+    }
+    .carousel, .carousel-item img{
+        width: 100%;
+    }
+    footer li,footer span, footer p{
+        font-size: 1rem;
+    }
+    nav > div > a{
+        width: 50%;
+    }
+    #proizvodiBlok .card-body{
+        flex-basis: 10rem;
+    }
+    .imgVelika{
+        text-align: center!important;
+    }
+}
+@media  screen and (max-width:767px) {
+    .container{
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .az-icon{
+        width: 5.2rem;
+        height: 5.2rem;
+        top: -2.5rem;
+        left: -2rem;
+    }
+    .card-body .card-text{
+        margin-bottom: 0.5rem;
+    }
+    .carousel-item img{
+        width: 50%;
+    }
+    footer li,footer span, footer p{
+        font-size: 0.93rem;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    
+}
+@media screen and (max-width:660px){
+    #spec{
+        flex-direction: column!important;
+        justify-content: space-between!important;
+        width: 100%;
+    }
+    .az-box{
+        width: 75%;
+        margin: 1rem auto;
+    }
+    .az-meni img{
+        width: 22rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .imgVelika img{
+        width:22rem;
+    }
+    .card-body .az-icon{
+        top: -3rem;
+    }
+    .card-body .row {
+        width: 75%!important;
+    }
+    
+}
+@media screen and (max-width:575px) {
+    #topProizvodi{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .az-ul{
+        width: 100%!important;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    html{
+        font-size: 0.7em;
+    }
+    .imgVelika img{
+        width:20rem;
+    }
+    
+    .card-body .row {
+        width: 100%!important;
+    }
+   
+}
+@media  screen and (max-width:350px) {
+    header a{
+        flex-direction: column;
+    }
+    
+}
+@media  screen and (max-width:320px) {
+    
+}
+

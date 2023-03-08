@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "naziv":"Cd project red",
+        "href" : "https://www.cdprojektred.com/en"
+    },
+    {
+        "id":2,
+        "naziv":"2K Games",
+        "href" : "https://www.2k.com/en-US/"
+    },
+    {
+        "id":3,
+        "naziv":"Activision Blizzard",
+        "href" : "https://www.activision.com/"
+    },
+    {
+        "id":4,
+        "naziv":"Bethesda",
+        "href" : "https://bethesda.net/dashboard"
+    },
+    {
+        "id":5,
+        "naziv":"Electronic Arts",
+        "href" : "https://www.ea.com/"
+    },
+    {
+        "id":6,
+        "naziv":"Take2",
+        "href" : "https://www.take2games.com/"
+    },
+    {
+        "id":7,
+        "naziv":"Sony",
+        "href" : "https://www.sony.com/en/"
+    },
+    {
+        "id":8,
+        "naziv":"Capcom",
+        "href" : "https://capcom-europe.com/"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "naziv":"PC"
+    },
+    {
+        "id":2,
+        "naziv":"PS4"
+    },
+    {
+        "id":3,
+        "naziv":"PS5"
+    },
+    {
+        "id":4,
+        "naziv":"SWITCH"
+    },
+    {
+        "id":5,
+        "naziv":"XBOXONE"
+    },
+    {
+        "id":6,
+        "naziv":"XBOX-SX"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "naziv": "3+",
+        "slika" : {
+            "alt": "Pegi oznaka 3+",
+            "src": "assets/images/pegi-3+.png"
+        }
+    },
+    {
+        "id":2,
+        "naziv": "7+",
+        "slika" : {
+            "alt": "Pegi oznaka 7+",
+            "src": "assets/images/pegi-7+.png"
+        }
+    },
+    {
+        "id":3,
+        "naziv": "12+",
+        "slika" : {
+            "alt": "Pegi oznaka 12+",
+            "src": "assets/images/pegi-12+.png"
+        }
+    },
+    {
+        "id":4,
+        "naziv": "16+",
+        "slika" : {
+            "alt": "Pegi oznaka 16+",
+            "src": "assets/images/pegi-16+.jpeg"
+        }
+    },
+    {
+        "id":5,
+        "naziv": "18+",
+        "slika" : {
+            "alt": "Pegi oznaka 18+",
+            "src": "assets/images/pegi-18+.png"
+        }
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "slika":{
+            "src":"ps4Slide.jpg",
+            "alt":"Ps4 controller slide"
+        }
+    },
+    {
+        "id":2,
+        "slika":{
+            "src":"xboxSlide.jpg",
+            "alt":"Xbox controller slide"
+        }
+    },
+    {
+        "id":3,
+        "slika":{
+            "src":"pcSlide.jpg",
+            "alt":"PC Keyboard slide"
+        }
+    },
+    {
+        "id":4,
+        "slika":{
+            "src":"switchSlide.jpg",
+            "alt":"Nintendo Switch slide"
+        }
+    }
+]

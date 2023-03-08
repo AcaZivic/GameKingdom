@@ -1,0 +1,18 @@
+[
+    {
+        "href":"index.html",
+        "name":"Početna"
+    },
+    {
+        "href":"pages/proizvodi.html",
+        "name":"Prodavnica"
+    },
+    {
+        "href":"pages/o-autoru.html",
+        "name":"Autor"
+    },
+    {
+        "href":"pages/korpa.html",
+        "name":"Korpa"
+    }
+]

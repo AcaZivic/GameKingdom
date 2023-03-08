@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "link":"https://twitter.com/",
+        "icon":"fab fa-twitter"
+    },
+    {
+        "id":2,
+        "link":"https://www.instagram.com/",
+        "icon":"fab fa-instagram"
+    },
+    {
+        "id":3,
+        "link":"https://www.facebook.com/",
+        "icon":"fab fa-facebook-f"
+    },
+    {
+        "id":4,
+        "link":"doc/Dokumentacija.pdf",
+        "icon":"fa-solid fa-file"
+    },
+    {
+        "id":5,
+        "link":"sitemap.xml",
+        "icon":"fa-solid fa-sitemap"
+    },
+    {
+        "id":6,
+        "link":"rss.xml",
+        "icon":"fas fa-rss"
+    }
+]
