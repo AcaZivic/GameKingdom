@@ -262,7 +262,7 @@ function prikazNavigacije(niz){
     for(indeks in niz){
         if(indeks==3){
             pom+=`<li class='nav-item me-1'>
-                        <a class='nav-link fs-5 px-3 py-2 position-relative' href=${prefiksPomocno+(niz[indeks].href)}>
+                        <a class='nav-link fs-5 px-3 py-2 position-relative' href=${prefiksOnline+(niz[indeks].href)}>
                             <i class="fa-solid fa-cart-shopping"></i>
                             <span class="az-cart-number">0</span>
                         </a>
@@ -271,7 +271,7 @@ function prikazNavigacije(niz){
             continue;
         }
         pom+=`<li class='nav-item me-1'>`;
-        pom+=`<a class='hover-underline-animation nav-link fs-6 px-3 py-2' href="${prefiksPomocno+niz[indeks].href}">${niz[indeks].name}</a>`;
+        pom+=`<a class='hover-underline-animation nav-link fs-6 px-3 py-2' href="${prefiksOnline+niz[indeks].href}">${niz[indeks].name}</a>`;
         pom+="</li>";
     }
     navigacijaLink.innerHTML = pom;
@@ -280,11 +280,11 @@ function glavniLink(link){
     let pom = navigacijaLink.querySelectorAll(`li > a`);
     pom.forEach(function(a){
         if(prefiksPomocno!=''){
-            if('/'+a.getAttribute("href").substring(3)==link){
+            if(a.getAttribute("href")==link){
                 a.classList.add('active');
             }
         }else{
-            if('/'+a.getAttribute("href")==link){
+            if(a.getAttribute("href")==link){
                 a.classList.add('active');
             }
         }
