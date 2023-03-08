@@ -5,7 +5,7 @@ var prefiksDok = 'assets/doc/';
 var prefiksSlike = 'assets/images/';
 var prefiksPomocno = ''; //postaje ../
 // var prefiksOnline = '/BakinoCudoDoo/';
-var prefiksOnline ='';
+var prefiksOnline ='/GameKingdom/';
 const bodyTag = document.getElementsByTagName("body");
 const strelicaObj = document.querySelector("#strelicaPocetak");
 const navigacijaLink = document.querySelector("#navigacija");
@@ -1186,8 +1186,9 @@ function prikazModalaPoruci(){
     let obj = document.querySelector("#poruciModal");
     let datumIsporuke = new Date();
     datumIsporuke.setTime(datumIsporuke.getTime()+86400000*2);
-    console.log(datumIsporuke);
     obj.querySelector("small").innerHTML = `${datumPrikaz(datumIsporuke)}`;
+
+
     crtanjeModala(obj);
 }
 
