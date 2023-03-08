@@ -92,7 +92,7 @@ function dohvatiPodatkePromise(nazivFajla){
 
 let url = window.location.pathname;
 // url = url=="/"?"/index.html":url;
-url = (url=='/BakinoCudoDoo/')?'/BakinoCudoDoo/index.html':url;
+url = (url=='/GameKingdom/')?'/GameKingdom/index.html':url;
 // console.log(url);
 window.onload = async function(){
     if(url!=`${prefiksOnline}index.html` && url!=`${prefiksOnline}`) {
