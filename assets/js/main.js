@@ -175,7 +175,7 @@ window.onload = async function(){
     
     if(url==`${prefiksOnline}/pages/korpa.html`){
         prikaziBrojProizvodaUKorpi();
-        console.log(brArtikalaKorpa())
+        // console.log(brArtikalaKorpa())
         if(!brArtikalaKorpa()){
             prikazPraznuKorpu();
         }else{
@@ -207,8 +207,8 @@ function proveraFormeUzivo(inputFormObjects){
             formaSelect.previousElementSibling.classList.add("text-success");
             formaSelect.classList.remove("az-form-border");
             
-            console.log(pom);
-            console.log(divCbx);
+            // console.log(pom);
+            // console.log(divCbx);
 
             if(pom==2){
                 divCbx.innerHTML = ` <div class="form-floating col-md-12">
@@ -518,7 +518,7 @@ function slajderAnimacija(){
 function crtanjeModala(obj){
     $(obj).addClass("az-visible");
     $(obj).animate({opacity:"1"},300);
-    console.log(1);
+    // console.log(1);
     $('<div id="pozadinaModal" class="modal-backdrop fade show"></div>').appendTo($("body"));
 
     $($(obj).find(".btn-close,.btn-secondary")).click(function(){
@@ -836,7 +836,7 @@ function filtriranje(niz, tip){
             ;
             if(tip=="chbPlatforme"){
                 niz=niz.filter(x=>provera(nizSel,x.platforme));
-                console.log(nizSel);
+                // console.log(nizSel);
                 
             }else if (tip==`chbŽanrovi`) {
                 niz=niz.filter(x=>provera(nizSel,x.zanrovi));
@@ -996,7 +996,7 @@ function prikaziBrojProizvodaUKorpi(){
 
 function dodavanjeKorpa(){
     $(".az-btn-korpa").click(function(){
-        console.log("RADI" + this.dataset.id);
+        // console.log("RADI" + this.dataset.id);
         upisProizvoda(this.dataset.id);
     })
 }
@@ -1103,7 +1103,7 @@ function prikazKorpe(niz){
         brisanjeLS($(this).data("id"));
     })
     $("input[type=number]").bind("blur change",function(){
-        console.log(this.value);
+        // console.log(this.value);
 
         if(Number(this.value)>0){
             pro = dohvatiLS("korpa");
