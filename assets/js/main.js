@@ -96,8 +96,6 @@ url = (url=='/BakinoCudoDoo/')?'/BakinoCudoDoo/index.html':url;
 // console.log(url);
 window.onload = async function(){
     if(url!=`${prefiksOnline}index.html` && url!=`${prefiksOnline}`) {
-        prefiksPomocno="../";
-        prefiksOnline = prefiksOnline+prefiksPomocno
         prefiksPage = prefiksOnline+prefiksPage;
         prefiksSlike = prefiksOnline+prefiksSlike;
         prefiksJSON = prefiksOnline +prefiksJSON;

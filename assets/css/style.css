@@ -485,3 +485,7 @@ table tr,table td{
 .az-red{
     color: red;
 }
+.modal{
+    overflow-y: scroll;
+    max-height: 60%;
+  }
