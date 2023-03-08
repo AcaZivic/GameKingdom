@@ -328,8 +328,8 @@ function procitajVise($niz){
 function prikazFooterLinkova(niz){
     for(let i=0;i<2;i++){
         footerLink.innerHTML+=`<ul class="row my-3">
-        <li class="col-6"><a href="${prefiksPomocno+niz[i].href}">${niz[i].name}</a></li>
-        <li class="col-6"><a href="${prefiksPomocno+niz[i+2].href}">${niz[i+2].name}</a></li>
+        <li class="col-6"><a href="${prefiksOnline+niz[i].href}">${niz[i].name}</a></li>
+        <li class="col-6"><a href="${prefiksOnline+niz[i+2].href}">${niz[i+2].name}</a></li>
       </ul>`;
     }
 }
@@ -340,7 +340,7 @@ function prikazFooterInformacija(){
 }
 function prikazFooterIkonica(footerIconObjects){
     for(var i=3;i<footerIconObjects.length;i++){
-        footerIconObjects[i].link = prefiksPomocno +footerIconObjects[i].link;
+        footerIconObjects[i].link = prefiksOnline +footerIconObjects[i].link;
     }
     for(element of footerIconObjects){
         footerIcons.innerHTML+=`<li><a class="az-sm d-flex justify-content-center align-items-center rounded-circle" href="${element.link}"><i class="az-white ${element.icon}"></i></a> </li>`;
