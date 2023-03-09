@@ -915,7 +915,7 @@ function prikazCheckBoxova(proizvodi){
         for(let it of nizSvih[i]){
             ispis+=`<div class="form-check">
                         <input class="form-check-input" type="checkbox" name="chb${nizNaslova[i].split(' ')[0]}" value="${it.id}" id="chb${nizNaslova[i].split(' ')[0]}${it.id}" />
-                        <label class="form-check-label ms-3" for="chb${nizNaslova[i].split(' ')[0]}${it}">
+                        <label class="form-check-label ms-3" for="chb${nizNaslova[i].split(' ')[0]}${it.id}">
                         ${it.naziv}<span class="fw-bold ms-2 ${nizNaslova[i].split(' ')[0]}" data-id="${it.id}">(${proizvodi.filter(x=>x.proizvodjac==it).length})</span>
                     </label>
                     </div>`;
