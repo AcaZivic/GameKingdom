@@ -987,25 +987,6 @@
     },
     {
         "id":52,
-        "naziv": "PS4 Wolfenstein The New Order & The Old Blood",
-        "sifra": "034445",
-        "proizvodjac": 4,
-        "datumIzlaska":"2021-03-20",
-        "platforme": [2],
-        "pegiOznaka":5,
-        "zanrovi":[1,8],
-        "slika":{
-            "alt":"PS4 Wolfenstein omot",
-            "src":"assets/images/proizvodi/ps4-wolfenstein.jpg"
-        },
-        "cenaInfo":{
-            "cenaStara":2999,
-            "cenaNova":null
-        },
-        "opis":"Kompilacija dve igre: PS4 Wolfenstein The New Order i The Old Blood."
-    },
-    {
-        "id":53,
         "naziv": "PS4 Call of Duty Modern Warfare Remastered",
         "sifra": "028387",
         "proizvodjac": 3,
@@ -1024,7 +1005,7 @@
         "opis":"Call of Duty 4 - Modern Warfare se vratio, sa osveženom grafikom u visokoj rezoluciji, poboljšanim teksturama, boljim osvetljenjem i mnogim drugim pobošljanjima koje nude konzole nove generacije."
     },
     {
-        "id":54,
+        "id":53,
         "naziv": "PS4 The Quarry",
         "sifra": "045890",
         "proizvodjac": 2,
