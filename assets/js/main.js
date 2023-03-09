@@ -416,20 +416,24 @@ function proveriElem(element){
             var regIme = /input(?=(Ime|Prezime|Grad))/;
             if(element.id.match(regIme)){
                 provera = regExpIme.test(element.value);
+                element.parentElement.lastElementChild.innerHTML ='Niste popunili polje u formatu (prvo veliko ostala mala slova)';
             }
             if(element.id =='inputEmail' || element.id =='emailUnos'){
                 provera = regExpMejl.test(element.value);
+                element.parentElement.lastElementChild.innerHTML ='Niste popunili polje u formatu (primer@gmail.com)';
             }
             if(element.id =='inputTelefon'){
                 provera = regExpTel.test(element.value);
             }
             if(element.id =='inputAdresa'){
                 provera = regExpAdresa.test(element.value);
+                element.parentElement.lastElementChild.innerHTML ='Niste popunili polje u formatu (npr. Partizanska 27 ili 1000 kaplara)';
+
             }
             if(!provera){
                 element.classList.add("az-form-border");
                 element.parentElement.lastElementChild.classList.remove('az-invisible');
-                element.parentElement.lastElementChild.innerHTML ='Niste popunili polje u trazenom formatu';
+                
             }else{
                 element.classList.remove("az-form-border");
                 element.parentElement.lastElementChild.classList.add('az-invisible');
